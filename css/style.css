@@ -1,8 +1,7 @@
 *{
     margin: 0 auto;
     padding: 0;  
-    width: 90%;
-    box-sizing: border-box;     
+    box-sizing: border-box;   
 }
 
 .pattern-top{
@@ -14,15 +13,28 @@
 }
 
 .pattern-top img{
-    width: 20%;
+    width: 30%;
     position: absolute;
     bottom: 0;
     padding: 10px;
 }
 
+header h1{
+    padding-top: 10px;
+}
+
 #color-date, header h3  {
     color: gray;
 }
+
 header span{
     color: cornflowerblue;
+}
+
+#img-tim{
+    padding-top: 20px;
+}
+
+#size-text-img{
+    font-size: 70%;
 }
