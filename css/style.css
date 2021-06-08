@@ -1,0 +1,28 @@
+*{
+    margin: 0 auto;
+    padding: 0;  
+    width: 90%;
+    box-sizing: border-box;     
+}
+
+.pattern-top{
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat;
+    height: 170px;
+    background-color: cornflowerblue;
+    position: relative;
+}
+
+.pattern-top img{
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+
+#color-date, header h3  {
+    color: gray;
+}
+header span{
+    color: cornflowerblue;
+}
