@@ -1,7 +1,7 @@
 *{
-    margin: 0 auto;
-    padding: 0;  
-    box-sizing: border-box;   
+    margin: 0 auto; 
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .pattern-top{
@@ -13,17 +13,17 @@
 }
 
 .pattern-top img{
-    width: 30%;
+    width: 25%;
     position: absolute;
     bottom: 0;
     padding: 10px;
 }
 
-header h3{
+main h4, footer strong{
     color: gray;
 }
 
-header span{
+h4 span{
     color: cornflowerblue;
 }
 
@@ -31,7 +31,7 @@ header span{
     padding-top: 15px;
 }
 
-.size-text-img{
+.size-text{
     font-size: 70%;
 }
 
@@ -40,14 +40,30 @@ th{
     color: white;
 }
 
-td{
-    width: 100%/3;
-}
-
 .color-table{
     background-color: lightskyblue;
 }
 
 .width-td{
     width: 25%;
+}
+
+.img-footer{
+    background-image: url(../img/monitor.jpg);
+    width: auto;
+    text-align: center;
+
+}
+
+.position {
+    position: relative;
+}
+  
+.text-block {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 20px;
 }
