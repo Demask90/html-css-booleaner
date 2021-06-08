@@ -19,11 +19,7 @@
     padding: 10px;
 }
 
-header h1{
-    padding-top: 10px;
-}
-
-#color-date, header h3  {
+header h3{
     color: gray;
 }
 
@@ -31,10 +27,27 @@ header span{
     color: cornflowerblue;
 }
 
-#img-tim{
-    padding-top: 20px;
+.padding{
+    padding-top: 15px;
 }
 
-#size-text-img{
+.size-text-img{
     font-size: 70%;
+}
+
+th{
+    background-color:dodgerblue;
+    color: white;
+}
+
+td{
+    width: 100%/3;
+}
+
+.color-table{
+    background-color: lightskyblue;
+}
+
+.width-td{
+    width: 25%;
 }
