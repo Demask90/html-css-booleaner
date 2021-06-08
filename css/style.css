@@ -1,21 +1,17 @@
 *{
     margin: 0 auto; 
-    box-sizing: border-box;
     font-family:'Times New Roman', Times, serif;
 }
 
 .pattern-top{
     background-image: url("../img/pattern.png");
-    background-repeat: repeat;
     height: 170px;
     background-color: cornflowerblue;
-    position: relative;
 }
 
-.pattern-top img{
+.logo-pattern{
     width: 25%;
-    position: absolute;
-    bottom: 0;
+    margin-top: 100px;
     padding: 10px;
 }
 
@@ -35,7 +31,16 @@ h4 span{
     font-size: 70%;
 }
 
-th{
+ul{
+    padding-inline-start: 17px;
+}
+
+table{
+    border-collapse: collapse;
+    border: none;
+}
+
+table th{
     background-color:dodgerblue;
     color: white;
 }
@@ -48,22 +53,24 @@ th{
     width: 25%;
 }
 
-.img-footer{
+.text-monitor{
     background-image: url(../img/monitor.jpg);
-    width: auto;
-    text-align: center;
-
-}
-
-.position {
-    position: relative;
-}
-  
-.text-block {
-    position: absolute;
+    background-repeat: no-repeat;
+    height:208px;
     color: white;
     font-size: 25px;
     font-weight: bold;
-    padding-top: 30px;
-    padding-left: 20px;
+    padding-top: 15px;
+    padding-left: 20px;    
+}
+
+.text-graph{
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    height:208px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 20px;    
 }
