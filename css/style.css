@@ -1,25 +1,30 @@
 *{
     margin: 0; 
     font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 
-.pattern-top{
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
     background-image: url("../img/pattern.png");
-    height: 60px;
+    height: 100px;
     background-color: cornflowerblue;
-    padding-top: 110px;
-    padding-left: 10px;
 }
 
-.logo-pattern{
-    width: 20%;
+#logo-pattern{
+    height: 50px;
+    margin-top: 40px;
 }
 
-main h4, footer strong{
+.booleaner, .size-text{
     color: gray;
 }
 
-h4 span{
+.booleaner span{
     color: cornflowerblue;
 }
 
@@ -36,8 +41,8 @@ ul{
 }
 
 table{
-    border-collapse: collapse;
-    border: none;
+    border-spacing: 0;
+    text-align: left;
 }
 
 table th{
