@@ -1,0 +1,104 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Crete Round', serif;
+    background-image: url(../img/134305872-grey-html-file-document.jpg);
+    background-attachment: fixed;
+    background: cover;
+    position: absolute;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    position: relative;
+}
+
+main, footer{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    background-image: url(../img/1618162108071.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+#logo-pattern{
+    height: 30vh;
+    padding: 5vh;
+}
+
+main{
+    padding-top: 10vh;
+}
+
+.padding{
+    padding-top: 2vh;
+}
+
+.size-text{
+    font-size: 70%;
+}
+
+img > .container{
+    background-size: contain;
+}
+
+ul{
+    padding-inline-start: 17px;
+}
+
+table{
+    border-spacing: 0;
+    text-align: left;
+}
+
+table th{
+    background-color: black;
+    color: white;
+}
+
+.color-table{
+    background-color: lightslategray;
+}
+
+tbody:last-child{
+    background-color: darkslategrey;
+}
+
+.width-td{
+    width: 25%;
+}
+
+.padding-footer{
+    padding-top: 2vh;
+}
+.text-monitor{
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    height:208px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 20px;    
+}
+
+.text-graph{
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    height:208px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 20px;    
+}
